@@ -35,7 +35,8 @@
 
 </details>
 
-<details id="q2"><summary>### 2. 머신러닝이 도움을 줄 수 있는 문제 유형 네 가지는?</summary>
+<details id="q2">
+<summary>2. 머신러닝이 도움을 줄 수 있는 문제 유형 네 가지는?</summary>
 
 | 유형 | 설명 |
 |------|------|
@@ -46,20 +47,23 @@
 
 </details>
 
-<details id="q3"><summary>### 3. 레이블된 훈련 세트란 무엇인가요?</summary>
+<details id="q3">
+<summary>3. 레이블된 훈련 세트란 무엇인가요?</summary>
 
 - **각 샘플에 정답(레이블)이 포함**된 훈련 데이터셋입니다.
 
 </details>
 
-<details id="q4"><summary>### 4. 가장 널리 사용되는 지도 학습 작업 두 가지는?</summary>
+<details id="q4">
+<summary>4. 가장 널리 사용되는 지도 학습 작업 두 가지는?</summary>
 
 - **회귀(Regression)**  
 - **분류(Classification)**
 
 </details>
 
-<details id="q5"><summary>### 5. 보편적인 비지도 학습 작업 네 가지는?</summary>
+<details id="q5">
+<summary>5. 보편적인 비지도 학습 작업 네 가지는?</summary>
 
 1. 군집(Clustering)  
 2. 시각화(Visualization)  
@@ -68,44 +72,51 @@
 
 </details>
 
-<details id="q6"><summary>### 6. 사전 정보가 없는 지형에서 로봇을 걷게 하려면?</summary>
+<details id="q6">
+<summary>6. 사전 정보가 없는 지형에서 로봇을 걷게 하려면?</summary>
 
 - **강화 학습(Reinforcement Learning)** 이 대표적 해결책입니다.
 
 </details>
 
-<details id="q7"><summary>### 7. 고객을 여러 그룹으로 분할하려면?</summary>
+<details id="q7">
+<summary>7. 고객을 여러 그룹으로 분할하려면?</summary>
 
 - **군집 알고리즘**(비지도)으로 자동 분할  
 - 그룹 정의가 이미 있다면 **분류 알고리즘**(지도)으로 할당
 
 </details>
 
-<details id="q8"><summary>### 8. 스팸 감지는 지도 vs 비지도?</summary>
+<details id="q8">
+<summary>8. 스팸 감지는 지도 vs 비지도?</summary>
 
 - **지도 학습** 문제—(이메일, 레이블) 쌍이 제공됨
 
 </details>
 
-<details id="q9"><summary>### 9. 온라인 학습 시스템이란?</summary>
+<details id="q9">
+<summary>9. 온라인 학습 시스템이란?</summary>
 
 - 데이터를 **점진적으로 학습**하여 **변화·대규모 스트림**에 빠르게 적응하는 시스템
 
 </details>
 
-<details id="q10"><summary>### 10. 외부 메모리 학습이란?</summary>
+<details id="q10">
+<summary>10. 외부 메모리 학습이란?</summary>
 
 - 메모리에 올릴 수 없는 **대용량 데이터를 미니배치**로 불러와 **온라인 학습 기법**으로 훈련
 
 </details>
 
-<details id="q11"><summary>### 11. 예측을 위해 유사도 측정에 의존하는 알고리즘은?</summary>
+<details id="q11">
+<summary>11. 예측을 위해 유사도 측정에 의존하는 알고리즘은?</summary>
 
 - **인스턴스 기반 학습** (예: k‑NN)
 
 </details>
 
-<details id="q12"><summary>### 12. 모델 파라미터 vs 하이퍼파라미터</summary>
+<details id="q12">
+<summary>12. 모델 파라미터 vs 하이퍼파라미터</summary>
 
 | 구분 | 예 | 튜닝 주체 |
 |------|----|-----------|
@@ -114,14 +125,16 @@
 
 </details>
 
-<details id="q13"><summary>### 13. 모델 기반 학습 알고리즘의 전략과 예측 방법은?</summary>
+<details id="q13">
+<summary>13. 모델 기반 학습 알고리즘의 전략과 예측 방법은?</summary>
 
 1. **비용 함수 = 예측 오차 + 규제** 를 최소화하여 **파라미터 최적화**  
 2. 예측 시 **학습된 파라미터**를 모델 함수에 대입
 
 </details>
 
-<details id="q14"><summary>### 14. 머신러닝 주요 도전 과제</summary>
+<details id="q14">
+<summary>14. 머신러닝 주요 도전 과제</summary>
 
 - 부족하거나 품질 낮은 데이터  
 - 관련 없는 특성, 대표성 없는 샘플  
@@ -129,7 +142,8 @@
 
 </details>
 
-<details id="q15"><summary>### 15. 과대적합 해결책 세 가지?</summary>
+<details id="q15">
+<summary>15. 과대적합 해결책 세 가지?</summary>
 
 1. **데이터 더 모으기**  
 2. **모델 단순화** (특성·파라미터↓, 규제↑)  
@@ -137,25 +151,29 @@
 
 </details>
 
-<details id="q16"><summary>### 16. 테스트 세트란? 왜 필요한가?</summary>
+<details id="q16">
+<summary>16. 테스트 세트란? 왜 필요한가?</summary>
 
 - 모델 배포 전 **일반화 오차**를 추정하는 **최종 점검용** 데이터셋
 
 </details>
 
-<details id="q17"><summary>### 17. 검증 세트의 목적은?</summary>
+<details id="q17">
+<summary>17. 검증 세트의 목적은?</summary>
 
 - **모델 비교·하이퍼파라미터 튜닝** 용도로 사용
 
 </details>
 
-<details id="q18"><summary>### 18. 테스트 세트로 튜닝하면?</summary>
+<details id="q18">
+<summary>18. 테스트 세트로 튜닝하면?</summary>
 
 - 테스트 세트에 **과대적합**되어 성능을 과대평가할 위험
 
 </details>
 
-<details id="q19"><summary>### 19. 교차 검증이란? 왜 선호되나?</summary>
+<details id="q19">
+<summary>19. 교차 검증이란? 왜 선호되나?</summary>
 
 - 훈련 데이터를 **K 분할**해 번갈아 검증 → **데이터 활용 극대화**, 별도 검증 세트 불필요
 
